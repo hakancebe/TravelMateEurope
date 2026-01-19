@@ -39,7 +39,7 @@ A desktop application for managing travel destinations using Java Swing and SQLi
 
 1.  **Clone the repository**
     ```bash
-    git clone [https://github.com/hakancebe/TravelGuide-Desktop-App.git](https://github.com/hakancebe/TravelGuide-Desktop-App.git)
+    git clone [https://github.com/hakancebe/TravelMateEurope.git](https://github.com/hakancebe/TravelMateEurope.git)
     ```
 2.  **Open in IDE**
     - Import the project into Eclipse, IntelliJ IDEA, or NetBeans.
