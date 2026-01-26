@@ -1,33 +1,33 @@
-# 🌍 TravelGuide-Desktop-App
+#  TravelGuide-Desktop-App
 A desktop application for managing travel destinations using Java Swing and SQLite with a layered architecture.
 
 ![Project Status](https://img.shields.io/badge/Status-Completed-success)
 ![Java](https://img.shields.io/badge/Language-Java-orange)
 ![Database](https://img.shields.io/badge/Database-SQLite-blue)
 
-## 📸 Screenshots
+##  Screenshots
 
 | Login Screen | Admin Panel | User Panel |
 |:---:|:---:|:---:|
 | ![Login](screenshots/login.png) | ![Admin](screenshots/admin.png) | ![User](screenshots/user.png) |
 
-## ✨ Features
+##  Features
 
-### 🔐 Authentication
+###  Authentication
 - Secure login system with role-based access (Admin vs. User).
 - **Admin Credentials:** `admin` / `1234` (Default).
 
-### 🛠 Admin Panel (CRUD Operations)
+###  Admin Panel (CRUD Operations)
 - **Add New Data:** Admins can add Countries, Cities, Categories, and Destinations dynamically.
 - **Update Records:** Update image paths and details for existing destinations.
 - **Database Management:** Automatically creates necessary tables if they don't exist.
 
-### 👤 User Panel
+### User Panel
 - **View Destinations:** Browse available travel spots loaded from the database.
 - **Dynamic Filtering:** Select a destination to view its description and image.
 - **Visual Interface:** Displays images associated with locations.
 
-## 🏗 Tech Stack & Architecture
+##  Tech Stack & Architecture
 
 * **Language:** Java (JDK 17+)
 * **GUI:** Java Swing (JFrame, JPanel, LayoutManagers)
@@ -35,7 +35,7 @@ A desktop application for managing travel destinations using Java Swing and SQLi
 * **Data Access:** JDBC with `PreparedStatement` (Prevents SQL Injection)
 * **Pattern:** Layered Architecture (GUI -> DatabaseHelper -> Database)
 
-## 🚀 Installation & Setup
+##  Installation & Setup
 
 1.  **Clone the repository**
     ```bash
@@ -49,7 +49,7 @@ A desktop application for managing travel destinations using Java Swing and SQLi
     - Locate `Main.java` and run the file.
     - The database `gui.db` will be created automatically in the project root.
 
-## 📂 Database Schema
+## Database Schema
 
 The application uses a relational database with the following structure:
 * **Users:** Stores login credentials.
@@ -58,7 +58,7 @@ The application uses a relational database with the following structure:
 * **Category:** Types of vacations (e.g., Summer, Winter).
 * **Destination:** The main table linking City, Category, and descriptions.
 
-## 👨‍💻 Author
+## Author
 
 **Hakan Cebe**
 
